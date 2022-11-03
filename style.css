@@ -100,11 +100,43 @@ button {
     height: 100%;
     object-fit: cover;
   }
-  .carousel-indicators {
 
-    color:#f09497;
-    size: 10px;
+  .carousel-indicators button {
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+    margin: 0 10px;
   }
+
+  .carousel-indicators .active {
+    background-color: #858af8;
+}
+
+#carousel_1 .carousel-control-prev {
+  width: 60px;
+  height: 60px;
+  background-color: #858af8;
+  border-radius: 50%;
+
+}
+
+#carousel_1 .carousel-control-next {
+    width: 60px;
+    height: 60px;
+    background-color: #858af8;
+    border-radius: 50%;
+  }
+
+#carousel_1 .carousel-control-prev{
+    left: 30px;
+    top:100px;
+  }
+
+#carousel_1 .carousel-control-next{
+    right: 30px;
+    top:100px;
+  }
+
 /*----Footer styles------*/  
 
 .section-footer{
