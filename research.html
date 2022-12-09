@@ -105,166 +105,37 @@
 
     <!--Home Page-->
     <section>
-        <div class="container-fluid mb-5 pt-5">
+        <div class="container-fluid p-5">
             <div class="d-flex">
                 <div class="row justify-content-center">
                     <div class="col-md-9">
-                        <div class="container-fluid">
-                            <div id="carousel_1" class="carousel slide shadow" data-bs-ride="carousel">
-                                <div class="carousel-indicators">
-                                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-                                  </div>
-                                <div class="carousel-inner">
-                                  <div class="carousel-item active">
-                                    <img src="images/ASL2.png">
-                                  </div>
-                                  <div class="carousel-item">
-                                    <img src="images/ASL2.png">
-                                  </div>
-                                  <div class="carousel-item">
-                                    <img src="images/ASL2.png">
-                                  </div>
-                                </div>
-                                <button class="carousel-control-prev" type="button" data-bs-target="#carousel_1" data-bs-slide="prev">
-                                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                                  <span class="visually-hidden">Previous</span>
-                                </button>
-                                <button class="carousel-control-next" type="button" data-bs-target="#carousel_1" data-bs-slide="next">
-                                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                                  <span class="visually-hidden">Next</span>
-                                </button>
-                            </div>
+                        <h4>Dataset Infant Anonymization with Pose and Emotion Retention (DIAPER)
+                        </h4>
+                        <img src="images/research/bad_results.png">
+                        <br>
+                        <br>
+                        <p>
+                            DIAPER is a system focused on the anonymization of identities of infants in datasets. Many groups conducting experiments with babies generate datasets that could be used in other experiments. However, due to parental consent, much of this data is restricted to only a single research project or publication. Having the ability to anonymize baby faces while still retaining useful features would allow for the wider dissemination of infant datasets.
                             <br>
-                            <br>
-                            <p>
-                                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deserunt deleniti ad adipisci consequatur,
-                                saepe, vitae perferendis asperiores labore velit consectetur excepturi nulla modi, id animi esse 
-                                consequuntur veritatis at accusantium atque? Minus atque aperiam laborum nemo corrupti, rerum optio 
-                                temporibus, officiis sapiente corporis possimus quam deleniti quia amet eos! Provident.
-                            </p>                           
-                        </div>
+                            To do this, DIAPER utilizes DECA, a tool for turning 2D images of people into 3D models with separate controls for shape, pose, and emotion. By keeping pose and emotion locked, the shape can be freely changed to keep the identities of infants hidden. However, DECA is trained on adult heads, and therefore struggles with the shape of an infant head. Another tool called MICA, which turns 2D images into metrically accurate 3D models, is used to generate the shape component of the 3D model produced by DECA.
+
+                        </p>
+                        <br>
+                        <br>
+                        <h4>
+                            SignDict: From General Language to Sign Language
+                        </h4>
+                        <img src="images/research/ASL3.jpg">
+                        <br>
+                        <br>
+                        Sign language generation not only promotes communication between the hearing-impaired community and the general public but also further improves the mutual understanding between humans and robots. We propose SignDict, a text-to-sign video approach to deal with challenges in pose estimation and the design of generative networks to further improve the performance.
                     </div>
                 </div>
             </div>
-        </div>       
-    </section>
-
-    <!--Content-->
-    <section>
-        <div class="container-fluid p-5">
-            <div class="d-flex">
-                <div class="row justify-content-center">
-                    <div class="col-md-3">
-                        <p>
-                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Modi possimus,
-                             ullam porro obcaecati vero aliquam, voluptatum deserunt cupiditate facilis 
-                             harum tempora est nulla, sint delectus molestiae voluptatibus reprehenderit 
-                             ipsa velit? Hic, nobis accusamus quae autem repellat iusto commodi modi maxime?
-                        </p>
-                    </div>
-                    <div class="col-md-3">
-                        <p>
-                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Modi possimus,
-                             ullam porro obcaecati vero aliquam, voluptatum deserunt cupiditate facilis 
-                             harum tempora est nulla, sint delectus molestiae voluptatibus reprehenderit 
-                             ipsa velit? Hic, nobis accusamus quae autem repellat iusto commodi modi maxime?
-                        </p>
-                    </div>
-                    <div class="col-md-3">
-                        <p>
-                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Modi possimus,
-                             ullam porro obcaecati vero aliquam, voluptatum deserunt cupiditate facilis 
-                             harum tempora est nulla, sint delectus molestiae voluptatibus reprehenderit 
-                             ipsa velit? Hic, nobis accusamus quae autem repellat iusto commodi modi maxime?
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="container-fluid p-5">
-            <div class="d-flex">
-                <div class="row row-cols-1 row-cols-md-3 gx-5 justify-content-center">
-                    <div class="col-md-3">
-                      <div class="card h-100">
-                        <img src="images/Brain2.jpeg" class="card-img-top" alt="...">
-                        <div class="card-body">
-                          <h5 class="card-title">Card title</h5>
-                          <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                            Voluptate, impedit! Labore sed quae hic. At laboriosam fuga sint eum similique
-                            accusantium eaque cumque. Dicta, modi?</p>
-                            <a href="#" class="btn btn-outline-secondary">Go somewhere</a>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="col-md-3">
-                      <div class="card h-100">
-                        <img src="images/Brain2.jpeg" class="card-img-top" alt="...">
-                        <div class="card-body">
-                          <h5 class="card-title">Card title</h5>
-                          <p class="card-text">Lorem ipsum, dolor sit amet consectetur 
-                            adipisicing elit. Culpa nostrum libero, sequi molestiae ex nam vel nobis, 
-                            excepturi maiores dolore modi sint officiis temporibus aperiam.</p>
-                          <a href="#" class="btn btn-outline-secondary">Go somewhere</a>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="col-md-3">
-                      <div class="card h-100">
-                        <img src="images/Brain2.jpeg" class="card-img-top" alt="...">
-                        <div class="card-body">
-                          <h5 class="card-title">Card title</h5>
-                          <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                             Non, voluptate velit nostrum a aperiam voluptatibus magnam. Consectetur quas
-                              eos, nesciunt perferendis quam quod quaerat. Itaque.</p>
-                          <a href="#" class="btn btn-outline-secondary">Go somewhere</a>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-            </div>
-        </div>
-    </section>
-
-    <!--Content-->
-    <section>
-        <div class="container-fluid p-5">
-            <div class="d-flex">
-                <div class="row justify-content-center">
-                    <div class="col-md-3">
-                        <p>
-                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Modi possimus,
-                             ullam porro obcaecati vero aliquam, voluptatum deserunt cupiditate facilis 
-                             harum tempora est nulla, sint delectus molestiae voluptatibus reprehenderit 
-                             ipsa velit? Hic, nobis accusamus quae autem repellat iusto commodi modi maxime?
-                        </p>
-                    </div>
-                    <div class="col-md-3">
-                        <p>
-                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Modi possimus,
-                             ullam porro obcaecati vero aliquam, voluptatum deserunt cupiditate facilis 
-                             harum tempora est nulla, sint delectus molestiae voluptatibus reprehenderit 
-                             ipsa velit? Hic, nobis accusamus quae autem repellat iusto commodi modi maxime?
-                        </p>
-                    </div>
-                    <div class="col-md-3">
-                        <p>
-                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Modi possimus,
-                             ullam porro obcaecati vero aliquam, voluptatum deserunt cupiditate facilis 
-                             harum tempora est nulla, sint delectus molestiae voluptatibus reprehenderit 
-                             ipsa velit? Hic, nobis accusamus quae autem repellat iusto commodi modi maxime?
-                        </p>
-                    </div>
-                </div>
-            </div>
-
         </div>
     </section>
     <br>
     <br>
-
-
 
     <!--footer-->
     <section class="section-footer p-3">
