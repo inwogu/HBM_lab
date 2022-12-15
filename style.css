@@ -141,6 +141,21 @@ button {
     right: 30px;
     top:100px;
   }
+/*----map style---*/
+.map-container-2{
+  overflow:hidden;
+  padding-bottom:56.25%;
+  position:relative;
+  height:0;
+}
+.map-container-2 iframe{
+  left:0;
+  top:0;
+  height:100%;
+  width:100%;
+  position:absolute;
+}
+
 
 /*----Footer styles------*/  
 
