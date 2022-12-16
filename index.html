@@ -16,9 +16,10 @@
     <!--navigation bar-->
     <div class="container-fluid">
         <div class="d-flex">
-            <nav class="navbar fixed-top navbar-expand-sm justify-content-center" style="background-color: #232323;">
+            <nav class="navbar fixed-top navbar-expand-sm justify-content-end" style="background-color: #232323;">
                 <button 
                     type="button"
+                    style="background-color: #e4e4e4;"
                     data-bs-toggle="collapse"
                     data-bs-target="#navbarNav"
                     class="navbar-toggler"
@@ -151,52 +152,60 @@
     <section>
         <div class="container-fluid p-5">
             <div class="d-flex">
-                <div class="row justify-content-center">
+                <div class="row row-cols-1 row-cols-md-3 gx-5 justify-content-center">
                     <div class="col-md-3">
-                        <h4>Human Behavior Modeling Lab</h4>
+                        <img src="images/HBM4.png" height="280px" width="300px">
                         <br>
                         <br>
-                        <a href="indudwiv@buffalo.edu" class="btn btn-outline-secondary">Get involved</a>
+                        <h3>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Our team</h3>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp; &nbsp; &nbsp;
+                        <a href="people.html" class="btn btn-outline-secondary">People at HBML</a>                            
                     </div>
                     <div class="col-md-3">
-                        <p>
-                            Human Behavior Modeling Lab is ab academic lab that is uses artificial intelligence to study and design algorithms for behavior modeling. Research topics that the lab is currently working on are sign language detection, pose estimation and language processing. The lab is a part of Computer Science and Engineering department at University at Buffalo. The aim lab aims to bridge the gap between the theoretical models and their real life applications to assist man kind.
-                        </p>
+                        <h3>Research areas</h3>
+                        <i class="fa-sharp fa-solid fa-hand-spock"></i><h5>Human behavior modeling</h5>     
+                        <i class="fa-sharp fa-solid fa-hand-spock"></i><h5>Sign language understanding</h5>     
+                        <i class="fa-sharp fa-solid fa-hand-spock"></i><h5>Probabilistic modeling</h5>
+                        <i class="fa-sharp fa-solid fa-hand-spock"></i><h5>Pose estimation</h5>
+                        
                     </div>
                     <div class="col-md-3">
-                        <p>
-                            Human Behavior Modeling Lab is ab academic lab that is uses artificial intelligence to study and design algorithms for behavior modeling. Research topics that the lab is currently working on are sign language detection, pose estimation and language processing. The lab is a part of Computer Science and Engineering department at University at Buffalo. The aim lab aims to bridge the gap between the theoretical models and their real life applications to assist man kind.
-                        </p>
+                        <img src="images/people/Ifeoma-Nwogu11.jpg" height="280px" width="300px">
+                        <br>
+                        <br>
+                        <h3>Ifeoma Nwogu, PhD</h3>
+                        <br>
+                        <br>
                     </div>
-                </div>
+                  </div>
             </div>
         </div>
         <div class="container-fluid p-5">
             <div class="d-flex">
                 <div class="row row-cols-1 row-cols-md-3 gx-5 justify-content-center">
-                    <div class="col-md-3 justify-content-around">
-                        <h4>Current research</h4>
-                        <a href="research.html" class="btn btn-outline-secondary" style="text-decoration: none; color: black;">View more</a>
+                    <div class="col-md-3">
+                        <img src="images/research/baby_3d.png" height="280px" width="300px">
+                        <br>
+                        <br>
+                        <h3>AtomVAE</h3>
+                        Language-driven motion generation is an important task due to its wide application. To address the limitations of action generation on close-set, we propose AtomVAE for zero-shot text-to-motion synthesis, aiming to generate novel Unseen categories of actions. The Demo and code are on the way.</p>
+                        <a href="#" class="btn btn-outline-secondary">Read more</a>                            
                     </div>
                     <div class="col-md-3">
-                      <div class="card h-50">
-                        <img src="images/research/Brain.png" class="card-img-top" alt="...">
-                        <div class="card-body">
-                          <h5 class="card-title">SignDict</h5>
-                          <p class="card-text">Sign language generation not only promotes communication between the hearing-impaired community and the general public but also further improves the mutual understanding between humans and robots. </p>
-                          <a href="#" class="btn btn-outline-secondary">Read more</a>
-                        </div>
-                      </div>
+                        <img src="images/research/baby_3d.png" height="280px" width="300px">
+                        <br>
+                        <br>
+                        <h3>SignDict</h3>
+                        Sign language generation not only promotes communication between the hearing-impaired community and the general public but also further improves the mutual understanding between humans and robots.</p>
+                        <a href="#" class="btn btn-outline-secondary">Read more</a>
                     </div>
                     <div class="col-md-3">
-                      <div class="card h-50">
-                        <img src="images/research/baby_3d.png" class="card-img-top" alt="...">
-                        <div class="card-body">
-                          <h5 class="card-title">DIAPER</h5>
-                          <p class="card-text">Reconstruction of infant faces with accurate shape, pose, and emotions using 3D morphable models. Allows for the anonymization of infants in various datasets.</p>
-                          <a href="#" class="btn btn-outline-secondary">Read more</a>
-                        </div>
-                      </div>
+                        <img src="images/research/baby_3d.png" height="280px" width="300px">
+                        <br>
+                        <br>
+                        <h3>DIAPER</h3>
+                        Reconstruction of infant faces with accurate shape, pose, and emotions using 3D morphable models. Allows for the anonymization of infants in various datasets.</p>
+                        <a href="#" class="btn btn-outline-secondary">Read more</a>
                     </div>
                   </div>
             </div>
@@ -205,11 +214,11 @@
 
     <!--Google map-->
     <section>
-        <div class="container-fluid">
+        <div class="container-fluid p-5">
             <div class="d-flex">
-                <div class="row justify-content-end">
+                <div class="row justify-content-center">
                     <div class="col-md-9">            
-                        <div id="map-container-google-2" class="z-depth-1-half map-container" style="height: 500px">
+                        <div id="map-container-google-2" class="z-depth-1-half map-container" width="100%" height="100%">
                             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2917.837661014957!2d-78.78944418468085!3d43.00275277914891!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89d3731d068c2cd7%3A0xa3d0a835ba98f517!2sDavis%20Hall%20-%20University%20at%20Buffalo!5e0!3m2!1sen!2sus!4v1670609756003!5m2!1sen!2sus" width="1060" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                         </div>
                     </div>
@@ -221,29 +230,25 @@
     <!--footer-->
     <section class="section-footer p-3">
         <div class="container-fluid">
-            <div class="row justify-content-around">
-                <div class="col-md-6 mb-4 text-light">
+            <div class="row justify-content-around m-4">
+                <div class="col-md-6 text-light">
                    
                         <p>
-                            <a href='https://www.buffalo.edu/' style="color: #e4e4e4;text-decoration: none;"> University at Buffalo |</a>
-                                <a href='https://engineering.buffalo.edu/computer-science-engineering.html' style="color: #e4e4e4 ;text-decoration: none;"> Computer Science and Engineering</a>
+                            <a href='https://www.buffalo.edu/' style="color: #e4e4e4;text-decoration: none;">
+                                <img src="images/White/UB_Horizontal_Small.png" height="40"; width="auto">
+                            </a>
                             <br>
-                            Davis Hall, University at Buffalo
                             <br>
-                            Buffalo, New York, 14214      
-                        </p>
-                        
-                    
+                            Copyright <i class="fa-regular fa-copyright"></i> University at Buffalo<br>
+                        </p>   
                 </div>
-                <div class="col-md-6 mb-4 text-light">
+                <div class="col-md-6 text-light">
                     <p>
-                        Copyright <i class="fa-regular fa-copyright"></i> <span id="year"></span><br>
+                        
                         Human Behavior Modeling Lab<br>
-                        Contact us | Find us</a>
-                        <br>                        
-                    </p>
-                    
-                
+                        Davis Hall, University at Buffalo<br>
+                        Buffalo, New York, 14260                     
+                    </p>                
             </div>
             </div>
         </div>
