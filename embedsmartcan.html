@@ -1,19 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <!-- Google tag (gtag.js) --> 
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-B6WJCMC5FQ"></script> 
-    <script>   
-        window.dataLayer = window.dataLayer || [];   
-        function gtag(){dataLayer.push(arguments);}   
-        gtag('js', new Date());   gtag('config', 'G-B6WJCMC5FQ'); 
-    </script>
+    <!-- Google tag (gtag.js)-- TO-ADD-->
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
     <script src="https://kit.fontawesome.com/ad918cd8d3.js" crossorigin="anonymous"></script>
-    <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;1,400&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css" />
     <title></title>
     <script defer src="script.js"></script>
@@ -22,7 +16,7 @@
     <!--navigation bar-->
     <div class="container-fluid">
         <div class="d-flex">
-            <nav class="navbar fixed-top navbar-expand-sm justify-content-center" style="background-color:#54BAB9;">
+            <nav class="navbar fixed-top navbar-expand-sm justify-content-center" style="background-color: #232323;">
                 <button 
                     type="button"
                     data-bs-toggle="collapse"
@@ -33,34 +27,27 @@
                     aria-lable="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
-                    <ul class="navbar-nav"> 
+                <div class="collapse navbar-collapse justify-content-start ps-sm-5" id="navbarNav" >
+                    <ul class="navbar-nav">
+                        <button>
+                            <li class="nav-item1">
+                                <img src="images/HBM5.png" height="35"; weight="40">
+                            </li>
+                        </button>
+                        <button>
+                            <li class="nav-item1 mt-2">
+                                
+                                <h4><b>H</b>uman <b>B</b>ehavior <b>M</b>odeling <b>L</b>ab </h4>
+                            </li>
+                        </button>
+                    </ul>
+                </div>
+                <div class="collapse navbar-collapse justify-content-end pe-5" id="navbarNav">
+                    <ul class="navbar-nav">
                         <button>
                             <li class="nav-item active">
                                 <a href="index.html" class="nav-link active">
                                     Home
-                                </a>
-                            </li>
-                        </button>
-                        <button>
-                            <li class="nav-item active">
-                                <a href="research.html" class="nav-link active">
-                                    Research
-                                </a>
-                            </li>
-                        </button>
-                        <button>
-                            <li class="nav-item active">
-                                <a href="publications.html" class="nav-link active">
-                                    Publications
-                                </a>
-                            </li>
-                        </button>
-
-                        <button>
-                            <li class="nav-item active">
-                                <a href="teaching.html" class="nav-link active">
-                                    Teaching
                                 </a>
                             </li>
                         </button>
@@ -73,19 +60,39 @@
                         </button>
                         <button>
                             <li class="nav-item active">
-                                <a href="personal.html" class="nav-link active">
-                                    Personal
+                                <a href="people.html" class="nav-link active">
+                                    People
                                 </a>
+                            </li>
+                        </button>
+                        <button>
+                            <li class="nav-item active">
+                                <a href="research.html" class="nav-link active">
+                                    Research
+                                </a>
+                            </li>
+                        </button>
+                       
+                        <button>
+                            <li class="nav-item active">
+                                <a href="publications.html" class="nav-link active">
+                                    Publications
+                                </a>
+                            </li>
+                        </button>
+                        
+                        <button>
+                        <button>
+                            <li class="nav-item active">
+                                
+                                    <a href="https://inwogu.github.io/IfeomaNwogu/" class="nav-link active">
+                                        Ifeoma Nwogu
+                                    </a>
+                                </div>
                             </li>
                         </button>
                     </ul>
                 </div>
-                <!--Search bar//optional-->
-                <!-- <form class="d-flex me-3">
-                    <input type="text" class="form-control me2">
-                    <button type="submit" class="btn btn-outline-info" style="background-color: #002255">Search</button>
-    
-                </form> -->
             </nav>
         </div>
    
@@ -96,12 +103,12 @@
     <br>
     
 
-    <!--Embedded Smart Can-->
+    <!--Publications-->
     <section>
-        <div class="container-fluid mb-5 pt-3">
+        <div class="container-fluid mb-5 pt-5">
             <div class="d-flex">
                 <div class="row justify-content-center">
-                    <div class="col-md-8">
+                    <div class="col-md-9">
                         <div class="flex-container">
                             <h5><a href="embedsmartcan.html" style="text-decoration: none;color:#54BAB9">Embedded Smart Can - A home-based stroke rehabilitation device </a> 
 
@@ -224,49 +231,37 @@
 
             </div>
         </div>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        </section>
+
+    </section>
+
 
     <!--footer-->
-    <section class="section-footer mt-5 p-5">
+    <section class="section-footer p-3">
         <div class="container-fluid">
-            <div class="row justify-content-around">
-                <div class="col-md-6 mb-4 text-light">
-                    
-                        <p style="color: #f5f5f4;">
-                            <br>
-                            <br>
-                            <br>
-                            Copyright <i class="fa fa-copyright" aria-hidden="true"></i> Ifeoma Nwogu. 2022. All rights reserved 
-                            <br>
-                            Copyright Infrigement. Privacy statement 
-                        </p>
-                       
-                        
-                </div>
-                <div class="col-md-6 mb-4 text-light">
+            <div class="row justify-content-around m-4">
+                <div class="col-md-6 text-light">
                    
                         <p>
-                            <a style="color: #f5f5f4;"> Dr. Ifeoma Nwogu </a> <br>
-                            305, Davis Hall, Buffalo, NY 14260 <br>
-                            Phone: +1 (716) 645-1557 <br>
-                            Email: inwogu [@] buffalo [DOT] edu <br>
-                            <a href="https://scholar.google.com/citations?user=pCOmTY0AAAAJ&hl=en" style="color: #f5f5f4; text-decoration: none;"> Google Scholar </a> 
-                            <a href="https://www.linkedin.com/in/ifeoma-nwogu-7790a34/" style="color: #f5f5f4; text-decoration: none;"> | LinkedIn </a> 
-                            <a href='https://twitter.com/IfeomaNwogu5' style="color: #f5f5f4; text-decoration: none;"> | Twitter </a>
-                            
-                        </p>
-                        
-                    
+                            <a href='https://www.buffalo.edu/' style="color: #e4e4e4;text-decoration: none;">
+                                <img src="images/White/UB_Horizontal_Small.png" height="50"; width="auto">
+                            </a>
+                            <br>
+                            Copyright <i class="fa-regular fa-copyright"></i> University at Buffalo<br>
+                        </p>   
                 </div>
+                <div class="col-md-6 text-light">
+                    <p>
+                        
+                        Human Behavior Modeling Lab<br>
+                        Davis Hall, University at Buffalo<br>
+                        Buffalo, New York, 14260                     
+                    </p>                
+            </div>
             </div>
         </div>
     </section>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
 </body>
 </html>
